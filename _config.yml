@@ -130,7 +130,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: failed
+  enabled: true
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
