@@ -1,8 +1,8 @@
 ---
 layout: page
-title: walking dog robot
-description: current project
-img: assets/img/3.jpg
+title: Walking Dog Robot
+description: priparing...
+img: assets/img/12.jpg
 importance: 2
 category: work
 ---
