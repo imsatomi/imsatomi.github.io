@@ -53,24 +53,24 @@
               </li>
               {% if site.blog_nav_title %}
               <!-- Blog ここ入れてみた↓-->
-              <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
-              {%- endif %} -->
+              {%- endif %}
 
-              <!-- Project ここ入れてみた↓-->
-              <li class="nav-item {% if page.url contains 'project' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/project/' | relative_url }}">project
-                  {%- if page.url contains 'project' -%}
+              <!-- Projects ここ入れてみた↓-->
+              <li class="nav-item {% if page.url contains 'projects' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/projects/' | relative_url }}">projects
+                  {%- if page.url contains 'projects' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
               </li>
-
+             
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
