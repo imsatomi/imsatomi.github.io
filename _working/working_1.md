@@ -7,5 +7,5 @@ inline: true
 related_posts: false
 ---
 
-Data Engineering Intern <br/>
+Data Engineer Intern<br/>
 Development of data analysis infrastructure systems, <b>Rakuten Group Inc.</b>
