@@ -62,11 +62,22 @@
               </li>
               {%- endif %} -->
 
+              <!-- Project ここ入れてみた↓-->
+              <li class="nav-item {% if page.url contains 'project' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/project/' | relative_url }}">project
+                  {%- if page.url contains 'project' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
+              
+
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
                   {%- if page.title == p.title -%}
