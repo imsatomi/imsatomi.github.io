@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2023-04-18 00:00:00 +0900
-start: Apr, 2023
+date: 2024-03-15 00:00:00 +0900
+start: Mar, 2024
 end: 
 inline: true
 related_posts: false
 ---
 
-Student Volunteer, <b>IEEE PacificVis 2023</b>
+Student Volunteer, <b>IEEE VR 2024</b>
