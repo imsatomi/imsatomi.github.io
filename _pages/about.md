@@ -24,8 +24,8 @@ social: true  # includes social icons at the bottom of the page
 
 Hi. I’m a master's student at the [Ishiguro Lab](https://ishiguro-lab.org) in [Graduate School of Interdisciplinary Information Studies](https://www.u-tokyo.ac.jp/en/academics/grad_interdisciplinary.html) at [the University of Tokyo](https://www.u-tokyo.ac.jp/en/).
 
-My research interests include where VR (Virtual Reality), HCI (Human-Computer Interaction), and interactive sports instruction come together. My goal is to improve sports education by taking advantage of the latest technologies. 
-Recently, I have looked into techniques for interactive body movement learning using drones and VR. 
-My particular interest is to develop immersive and productive learning experiences.
+My research interests include where Virtual Reality (VR), Human-Computer Interaction (HCI), Human-Robot Interaction (HRI), and interactive sports instruction converge. My goal is to accurately understand human movements and develop interactive systems that support the acquisition and expression of movements. I am also exploring interactions between robots and humans. 
+
+My areas of research interest extend to dance, movement, Augmented Reality/Virtual Reality (AR/VR), art, and design.
 
 I received my B.S. at the [Takeda Lab](https://takedalab.g.sp.m.is.nagoya-u.ac.jp) in [Department of Electrical Engineering, Electronics, and Information Engineering](http://www.nuee.nagoya-u.ac.jp/index.html) from [Nagoya University](https://en.nagoya-u.ac.jp) in 2023.
