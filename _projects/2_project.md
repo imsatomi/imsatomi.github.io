@@ -9,8 +9,6 @@ category: work
 
 
 
-Preparing...
-
 
 
 
