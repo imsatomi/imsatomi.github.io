@@ -5,8 +5,8 @@
       value: Satomi Tokida
     - name: Date of Birth
       value: 30th September 2000
-    - name: Languages
-      value: Japanese, English, Korean
+    # - name: Languages
+    #   value: Japanese, English, Korean
 
 - title: Education
   type: time_table
@@ -42,7 +42,7 @@
   type: time_table
   contents:
     - title: Enhancing Seamless Body Movement Learning with Frame-by-Frame VR Presentation
-      institution: Tokida Satomi, and Ishiguro Yoshio, In IEEE VR 2024 Workshop
+      institution: Satomi Tokida, and Yoshio Ishiguro, In IEEE VR 2024 Workshop
       year: 2024
       # description:
       #   - Paper to come soon.
@@ -52,12 +52,12 @@
       #       - Sub-description 1.
       #       - Sub-description 2.
     - title: コマ送り提示を用いたダンス学習支援のためのVRアプリケーション
-      institution: 時田聡実，石黒祥生, IPSJ Interaction 2024
+      institution: 時田聡実, 石黒祥生, IPSJ Interaction 2024
       year: 2024
       # description:
       #   - Paper to come soon.
     - title: Dance with Rhythmic Frames:コマ送り提示によるVRダンス学習システム
-      institution: 時田聡実，石黒祥生，大谷健登，西野隆典，武田一哉, IPSJ Interaction Demo 2023
+      institution: 時田聡実, 石黒祥生, 大谷健登, 西野隆典, 武田一哉, IPSJ Interaction Demo 2023
       year: 2023
 
 - title: Services
@@ -95,6 +95,15 @@
     - title: Programming School Teacher
       institution: Development of programming learning materials and Tutoring, Corekara Inc.
       year: Jun, 2023 - Feb, 2024
+
+- title: Computer Skills
+  type: map
+  contents:
+    - name: Languages
+      value: Python, C, C#, HTML, CSS
+    - name: Others
+      value: Unity
+
 
 # - title: Academic Interests
 #   type: nested_list
