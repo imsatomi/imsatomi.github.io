@@ -3,7 +3,7 @@ layout: post
 date: 2024-03-15 00:00:00 +0900
 start: Mar, 2024
 end: 
-inline: true
+inline: false
 related_posts: false
 ---
 
