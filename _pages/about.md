@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    Email <a href="mailto:satomitokida@g.ecc.u-tokyo.ac.jp"><i class="fas fa-envelope""></i></a><br> 
+    Email <a href="mailto:tokidasatomi@g.ecc.u-tokyo.ac.jp"><i class="fas fa-envelope""></i></a><br> 
 # Curriculum Vitae <a href=""><i class="ai ai-cv"></i></a>
 
 # news: true  # includes a list of news items
