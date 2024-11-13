@@ -7,4 +7,7 @@ inline: true
 related_posts: false
 ---
 
-Student Volunteer, <b>IEEE PacificVis 2023</b>
+Student Volunteer, <b>IEEE VR 2024</b>
+Student Volunteer, <b>SIGGRAPH ASIA 2024</b>
+Birds of a Feather, XR in Enterprise and Society of Japan, <b>SIGGRAPH ASIA 2024<b>
+Exchange Study, [Ecole Centrale de Nantes](https://www.ec-nantes.fr/), May 2024 - Mar 2025 (11 months)
