@@ -32,9 +32,9 @@
     </div>
 
     
-    <!-- <h4>Talks</h4> -->
+    <h4>Talks</h4>
 
-    <!-- <div class="news">
+    <div class="news">
         {% if site.talk != blank -%}
         {%- assign news_size = site.talk | size -%}
         <div class="table-responsive" {% if include.limit and site.talk.scrollable and news_size > 3 %}style="max-height: 60vw"{% endif %}>
@@ -63,7 +63,7 @@
     {%- else -%}
         <p>No news so far...</p>
     {%- endif %}
-    </div> -->
+    </div>
 
 
 <h4>Service</h4>
@@ -98,10 +98,8 @@
         <p>No news so far...</p>
       {%- endif %}
       </div>
-
-      
-<!-- <h4>Teaching</h4> -->
-<!-- <div class="news">
+<h4>Teaching</h4>
+<div class="news">
   <h6 style="padding-top: 10px"><b>Teaching Assistant</b></h6>
   {% if site.teaching != blank -%}
   {%- assign news_size = site.teaching | size -%}
@@ -117,9 +115,9 @@
       <tr>
         <th scope="row" style="width:160px">
           {% for semester in item.semesters %}
-            {{ semester }}<br/> -->
+            {{ semester }}<br/>
             <!-- {% unless forloop.last %} / {% endunless %} -->
-          <!-- {% endfor %}
+          {% endfor %}
         </th>
         <td>
           {% if item.inline -%}
@@ -135,4 +133,4 @@
 {%- else -%}
   <p>No news so far...</p>
 {%- endif %}
-</div> -->
+</div>
