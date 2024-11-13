@@ -181,12 +181,12 @@ collections:
   talk:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /experiences/talk/:path/
   teaching:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /experiences/teaching/:path/
   service:
     defaults:
