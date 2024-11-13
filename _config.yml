@@ -208,7 +208,7 @@ working:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 teaching:
-  enabled: true
+  enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit:  # leave blank to include all the news in the `_news` folder
 
