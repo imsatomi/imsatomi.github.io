@@ -7,4 +7,4 @@ inline: true
 related_posts: false
 ---
 
-Colab research, [Ecole Centrale de Nantes](https://www.ec-nantes.fr/)
+Exchange Study, Research Collaboration at [Ecole Centrale de Nantes](https://www.ec-nantes.fr/)
