@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     Email <a href="mailto:tokidasatomi@g.ecc.u-tokyo.ac.jp"><i class="fas fa-envelope""></i></a><br> 
