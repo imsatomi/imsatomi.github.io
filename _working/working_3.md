@@ -2,7 +2,7 @@
 layout: post
 date: 2023-06-01 00:00:00 +0900
 start: Dec, 2024
-end: 
+end: current
 inline: true
 related_posts: false
 ---
