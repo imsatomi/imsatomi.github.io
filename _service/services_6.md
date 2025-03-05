@@ -7,4 +7,4 @@ inline: true
 related_posts: false
 ---
 
-Student Volunteer, <b>SIGGRAPH ASIA 2024</b>
+Student Volunteer, <b>Augmented Humans 2025</b>

@@ -7,4 +7,4 @@ inline: true
 related_posts: false
 ---
 
-Student Volunteer, <b>SIGGRAPH ASIA 2024</b>
+Student Volunteer, <b>IEEE VR 2025</b>

@@ -1,10 +1,10 @@
 ---
 layout: post
 date: 2024-12-03 00:00:00 +0900
-start: Dec, 2024
-end: 
+start: May, 2024
+end: Mar, 2025
 inline: true
 related_posts: false
 ---
 
-Student Volunteer, <b>SIGGRAPH ASIA 2024</b>
+Exchange Study, Research Collaboration at [Ecole Centrale de Nantes](https://www.ec-nantes.fr/)
