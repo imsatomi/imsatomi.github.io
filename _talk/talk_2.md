@@ -1,13 +1,13 @@
 ---
 layout: post
-date: 2023-06-15 00:00:00 +0900
-start: Dec, 2024
+date: 2025-03-24 00:00:00 +0900
+start: Mar, 2025
 end: 
 inline: true
 related_posts: false
 ---
 
-<b>Honorable Mention Award</b>, SIGGRAPH Asia 2024 Educator's Forum <b>[Top 5%!]<b>
+<b></b>, The Univerisity of Tokyo, GSII, Best Master’s Thesis <b>[Top of the Course!]<b>
 
 <!-- Software Engineering Intern <br/>
 Web UI Developement for Web Browser, <b>Naver Corp.</b> -->

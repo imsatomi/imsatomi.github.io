@@ -22,9 +22,9 @@ experiences: true
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi. I’m a master's student at the [Ishiguro Lab](https://ishiguro-lab.org) in [Graduate School of Interdisciplinary Information Studies](https://www.u-tokyo.ac.jp/en/academics/grad_interdisciplinary.html) at [the University of Tokyo](https://www.u-tokyo.ac.jp/en/).
+Hi. I’m a Ph.D. student at the [Ishiguro Lab](https://ishiguro-lab.org) in [Graduate School of Interdisciplinary Information Studies](https://www.u-tokyo.ac.jp/en/academics/grad_interdisciplinary.html) at [the University of Tokyo](https://www.u-tokyo.ac.jp/en/).
 
-My research interests include where Virtual Reality (VR), Human-Computer Interaction (HCI), and dancing. My goal is to accurately understand human movements and develop interactive systems that support the acquisition and expression of movements. 
+My research interests include where <b>Virtual Reality (VR)<b>, <b>Human-Computer Interaction (HCI)<b>, and <b>dance<b>. My goal is to accurately understand human movements and develop interactive systems that support the acquisition and expression of movements. 
 
 My areas of research interest extend to dance, movement, Augmented Reality/Virtual Reality (AR/VR).
 
