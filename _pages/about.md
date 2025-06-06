@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: Ph.D Student in <a href='https://ishiguro-lab.org'> Ishiguro Lab</a> at UTokyo.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  address: >
-    Email <a href="mailto:tokidasatomi@g.ecc.u-tokyo.ac.jp"><i class="fas fa-envelope""></i></a><br> 
+  address: 
+    # >
+    # Email <a href="mailto:tokidasatomi@g.ecc.u-tokyo.ac.jp"><i class="fas fa-envelope""></i></a><br> 
 # Curriculum Vitae <a href=""><i class="ai ai-cv"></i></a>
 
 # news: true  # includes a list of news items
@@ -22,10 +23,12 @@ experiences: true
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi. I’m a 1st-year Ph.D. student at the [Ishiguro Lab](https://ishiguro-lab.org) in [Graduate School of Interdisciplinary Information Studies](https://www.u-tokyo.ac.jp/en/academics/grad_interdisciplinary.html) at [the University of Tokyo](https://www.u-tokyo.ac.jp/en/).
+Hi! This is Satomi Tokida.
+
+I’m a 1st-year Ph.D student at the [Ishiguro Lab](https://ishiguro-lab.org) in [Graduate School of Interdisciplinary Information Studies](https://www.u-tokyo.ac.jp/en/academics/grad_interdisciplinary.html) at [the University of Tokyo](https://www.u-tokyo.ac.jp/en/).
 
 My research interests include where Virtual Reality (VR), Human-Computer Interaction (HCI), and dance. My goal is to accurately understand human movements and develop interactive systems that support the acquisition and expression of movements. 
 
 My areas of research interest extend to dance, movement, Augmented Reality/Virtual Reality (AR/VR).
 
-I received my B.S. at the [Takeda Lab](https://takedalab.g.sp.m.is.nagoya-u.ac.jp) in [Department of Electrical Engineering, Electronics, and Information Engineering](http://www.nuee.nagoya-u.ac.jp/index.html) from [Nagoya University](https://en.nagoya-u.ac.jp) in 2023.
+<!-- I received my B.S. at the [Takeda Lab](https://takedalab.g.sp.m.is.nagoya-u.ac.jp) in [Department of Electrical Engineering, Electronics, and Information Engineering](http://www.nuee.nagoya-u.ac.jp/index.html) from [Nagoya University](https://en.nagoya-u.ac.jp) in 2023. -->

@@ -7,7 +7,7 @@ inline: true
 related_posts: false
 ---
 
-<b></b>, The Univerisity of Tokyo, GSII, Best Master’s Thesis <b>[Top of the Course!]<b>
+The Univerisity of Tokyo, GSII, Best Master’s Thesis <b>[Top of the Course!]<b>
 
 <!-- Software Engineering Intern <br/>
 Web UI Developement for Web Browser, <b>Naver Corp.</b> -->
