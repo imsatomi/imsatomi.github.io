@@ -120,8 +120,8 @@
         <th scope="row" style="width:160px">
           {% for semester in item.semesters %}
             {{ semester }}<br/>
-            <!-- {% unless forloop.last %} / {% endunless %} -->
-          <!-- {% endfor %}
+            {% unless forloop.last %} / {% endunless %}
+          {% endfor %}
         </th>
         <td>
           {% if item.inline -%}
@@ -137,4 +137,4 @@
 {%- else -%}
   <p>No news so far...</p>
 {%- endif %}
-</div> -->
+</div>
