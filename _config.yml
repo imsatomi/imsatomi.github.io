@@ -186,7 +186,7 @@ collections:
   teaching:
     defaults:
       layout: post
-    output: false
+    output: true
     permalink: /experiences/teaching/:path/
   service:
     defaults:
