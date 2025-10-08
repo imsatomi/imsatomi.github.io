@@ -178,16 +178,16 @@ collections:
       layout: post
     output: true
     permalink: /experiences/working/:path/
-  talk:
-    defaults:
-      layout: post
-    output: false
-    permalink: /experiences/talk/:path/
   teaching:
     defaults:
       layout: post
     output: true
     permalink: /experiences/teaching/:path/
+  talk:
+    defaults:
+      layout: post
+    output: false
+    permalink: /experiences/talk/:path/
   service:
     defaults:
       layout: post
