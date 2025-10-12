@@ -7,4 +7,4 @@ inline: true
 related_posts: false
 ---
 
-Student Volunteer, <b>ISMAR 2025</b>
+Student Volunteer, <b>IEEE ISMAR 2025</b>
