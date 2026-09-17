@@ -12,7 +12,7 @@
   buttons.forEach(function (b) {
     b.addEventListener('click', function () { setLang(b.getAttribute('data-set-lang')); });
   });
-  setLang(root.getAttribute('lang') === 'ja' ? 'ja' : 'en');
+  setLang(root.getAttribute('lang') === 'en' ? 'en' : 'ja');
 
   // Mobile nav ------------------------------------------------------------
   var btn = document.querySelector('.nav-toggle');
