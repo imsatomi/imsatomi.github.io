@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"><title>Satomi Tokida</title>
-  <meta name="description" content="Satomi Tokida — Ph.D. student in HCI, VR/AR and AI for education at the University of Tokyo.">
+  <meta name="description" content="Satomi Tokida is a Ph.D. student in Human-Computer Interaction at the University of Tokyo (Ishiguro Lab), working on XR and AI for education: interaction design that draws out people's bodily and verbal expression.">
   <link rel="canonical" href="https://imsatomi.github.io/">
   <meta property="og:title" content="Satomi Tokida">
-  <meta property="og:description" content="Satomi Tokida — Ph.D. student in HCI, VR/AR and AI for education at the University of Tokyo.">
+  <meta property="og:description" content="Satomi Tokida is a Ph.D. student in Human-Computer Interaction at the University of Tokyo (Ishiguro Lab), working on XR and AI for education: interaction design that draws out people's bodily and verbal expression.">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/png" sizes="72x72" href="/assets/img/favicon-72.png">
   <link rel="icon" type="image/png" sizes="144x144" href="/assets/img/favicon-144.png">
@@ -16,14 +16,33 @@
     (function () {
       var l;
       try { l = localStorage.getItem('lang'); } catch (e) {}
-      if (l !== 'en' && l !== 'ja') l = (navigator.language || '').toLowerCase().indexOf('ja') === 0 ? 'ja' : 'en';
+      if (l !== 'en' && l !== 'ja') l = 'en';   // English by default; JA only if the visitor chose it
       document.documentElement.setAttribute('lang', l);
     })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Satomi Tokida",
+    "alternateName": "時田 聡実",
+    "url": "https://imsatomi.github.io/",
+    "image": "https://imsatomi.github.io/assets/img/prof_pic.jpg",
+    "jobTitle": "Ph.D. student",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "The University of Tokyo" },
+    "description": "Satomi Tokida is a Ph.D. student in Human-Computer Interaction at the University of Tokyo (Ishiguro Lab), working on XR and AI for education: interaction design that draws out people's bodily and verbal expression.",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=pkIE4d0AAAAJ",
+      "https://x.com/imsatomin",
+      "https://www.linkedin.com/in/satomi-tokida-a92a032ba",
+      "https://github.com/imsatomi"
+    ]
+  }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/main.css?v=202609170723">
+  <link rel="stylesheet" href="/assets/css/main.css?v=202609170754">
 </head>
 <body class="page-home">
   <header class="site-header">
@@ -55,11 +74,8 @@
     <h1 class="hero__name">Satomi Tokida</h1>
     <p class="hero__name-ja" data-lang="ja">時田 聡実</p>
     <div class="hero__about" data-lang="en">
-      <p>I am a Ph.D. student at the <a href="https://ishiguro-lab.org" target="_blank" rel="noopener">Ishiguro Lab</a>,
-      Graduate School of Interdisciplinary Information Studies, the University of Tokyo.</p>
-      <p>My research is in Human-Computer Interaction. I design and study VR/AR systems that help people learn and
-      express body movement, and AI agents that join classrooms as learning partners. In both, I am interested in how
-      technology can draw out people's thinking, movement and expression.</p>
+      <p>Ph.D. student at the <a href="https://ishiguro-lab.org" target="_blank" rel="noopener">Ishiguro Lab</a>, Graduate School of Interdisciplinary Information Studies, the University of Tokyo. I received my B.Eng. from Nagoya University and my master's degree from the University of Tokyo, and spent a year as a visiting research student at <a href="https://www.ec-nantes.fr/" target="_blank" rel="noopener">École Centrale de Nantes</a>, France. I work as a research assistant at <a href="https://lab.cluster.mu/" target="_blank" rel="noopener">Cluster Metaverse Lab</a>, <a href="https://r4d.mercari.com/" target="_blank" rel="noopener">Mercari R4D</a> and <a href="https://www.sbintuitions.co.jp/" target="_blank" rel="noopener">SB Intuitions</a>, and was selected for the <a href="https://www.ipa.go.jp/jinzai/mitou/advanced/2026first/gaiyou-is-2.html" target="_blank" rel="noopener">IPA MITOU Advanced Program</a> in 2026.</p>
+      <p>My research is in Human-Computer Interaction, XR and AI for education. My dissertation, “Interaction Design for Evoking Human Expressive Activities,” draws out bodily and verbal expression by changing the situation rather than training ability: dance movement therapy in a responsive VR environment, a digital teaching material that visualizes children's movements, and an AI classmate that joins the classroom, each built and tested in therapy sessions and elementary schools. Awards include the SIGGRAPH Asia 2024 Educator's Forum Honorable Mention and the Best Master's Thesis Award at UTokyo GSII (2025).</p>
     </div>
     <div class="hero__about" data-lang="ja">
       <p>東京大学大学院 学際情報学府 <a href="https://ishiguro-lab.org" target="_blank" rel="noopener">石黒研究室</a> 博士課程 在籍。名古屋大学工学部を卒業後、東京大学大学院 学際情報学府にて修士（学際情報学）を取得。修士2年次に <a href="https://www.ec-nantes.fr/" target="_blank" rel="noopener">École Centrale de Nantes</a>（フランス）に1年間の研究留学。<a href="https://lab.cluster.mu/" target="_blank" rel="noopener">クラスター メタバース研究所</a>、<a href="https://r4d.mercari.com/" target="_blank" rel="noopener">メルカリ R4D</a>、<a href="https://www.sbintuitions.co.jp/" target="_blank" rel="noopener">SB Intuitions株式会社</a>のリサーチアシスタントとして研究に従事。2026年より<a href="https://www.ipa.go.jp/jinzai/mitou/advanced/2026first/gaiyou-is-2.html" target="_blank" rel="noopener">IPA未踏アドバンスト事業</a>に採択。</p>

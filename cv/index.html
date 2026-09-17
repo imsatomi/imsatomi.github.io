@@ -16,14 +16,14 @@
     (function () {
       var l;
       try { l = localStorage.getItem('lang'); } catch (e) {}
-      if (l !== 'en' && l !== 'ja') l = (navigator.language || '').toLowerCase().indexOf('ja') === 0 ? 'ja' : 'en';
+      if (l !== 'en' && l !== 'ja') l = 'en';   // English by default; JA only if the visitor chose it
       document.documentElement.setAttribute('lang', l);
     })();
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/main.css?v=202609170723">
+  <link rel="stylesheet" href="/assets/css/main.css?v=202609170754">
 </head>
 <body class="page-cv">
   <header class="site-header">
