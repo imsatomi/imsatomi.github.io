@@ -1,0 +1,212 @@
+# type: full | short | poster | domestic   (labels live in _data/ui.yml)
+# links: first link is also used for the title. Label = where it goes (ACM Digital Library, IEEE Xplore, PDF, arXiv…)
+# "Satomi Tokida" / "時田聡実" are bolded automatically. equal: true adds an *equal contribution note.
+
+# ---- 2026 ----------------------------------------------------------------
+- year: 2026
+  type: full
+  title: "ImmersiveDMT: A VR System for Expressive Body Movement and Stress Reduction through Dance Movement Therapy"
+  authors: "Satomi Tokida, Yong-Hao Hu, Yuta Itoh, Jean-Marie Normand, Rebecca Fribourg, Jean-Philippe Rivière, Yuichi Hiroi, Takefumi Hiraki, Yoshio Ishiguro"
+  venue: "IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR 2026)"
+  pages: "369–379"
+  links:
+    - { label: "IEEE Xplore", url: "https://doi.org/10.1109/VR67842.2026.00058" }
+
+- year: 2026
+  type: full
+  title: "Design and Evaluation of a Photorealistic AI Virtual Peer in Elementary Collaborative Classroom"
+  authors: "Satomi Tokida, Koki Usui, Godai Tanaka, Shin Osuga, Masanori Kayano, Yuta Itoh, Yoshio Ishiguro"
+  venue: "CHI Conference on Human Factors in Computing Systems (CHI '26)"
+  pages: "1–15"
+  place: "Barcelona, Spain"
+  links:
+    - { label: "ACM Digital Library", url: "https://doi.org/10.1145/3772318.3791450" }
+
+- year: 2026
+  type: short
+  title: "Analyzing User Behaviors in Metaverse Brand Events that Drive Real-World Store Visit Intentions"
+  authors: "Satomi Tokida, Yuichi Hiroi, Miyabi Uesugi, Atsushi Shimono, Haruyuki Suzuki, Shouma Abe, Takefumi Hiraki"
+  venue: "IEEE VR 2026 Abstracts and Workshops (IEEE VRW 2026)"
+  pages: "714–717"
+  links:
+    - { label: "IEEE Xplore", url: "https://doi.org/10.1109/VRW70859.2026.00138" }
+    - { label: "PDF", url: "https://yhiroi.github.io/assets/pdf/2026_IEEEVR_WS_Metaverse_AEON.pdf" }
+
+- year: 2026
+  type: short
+  title: "Verselyzer: A Statistical Analysis Interface Enabling Non-Experts to Assess Metaverse Branding Effectiveness"
+  authors: "Sotaro Yokoi*, Satomi Tokida*, Yuichi Hiroi, Takefumi Hiraki"
+  equal: true
+  venue: "IEEE VR 2026 Abstracts and Workshops (IEEE VRW 2026)"
+  pages: "692–695"
+  links:
+    - { label: "IEEE Xplore", url: "https://doi.org/10.1109/VRW70859.2026.00134" }
+    - { label: "PDF", url: "https://yhiroi.github.io/assets/pdf/2026_IEEEVR_WS_KPI_Interface.pdf" }
+
+- year: 2026
+  type: poster
+  title: "Future Mobility Maker: A Conversational AI Experience for Public Exhibitions"
+  authors: "Satomi Tokida, Koki Usui, Tatsuya Uchida, Naoto Sasagawa, Godai Tanaka, Kazuo Hiraki, Shin Osuga, Yoshio Ishiguro"
+  venue: "CHI Extended Abstracts (CHI EA '26)"
+  pages: "1–5"
+  place: "Barcelona, Spain"
+  links:
+    - { label: "ACM Digital Library", url: "https://doi.org/10.1145/3772363.3799124" }
+
+- year: 2026
+  type: poster
+  title: "AR Haptic-Audio Conversion for Non-Visual Product Understanding in Smartphone AR"
+  authors: "Satomi Tokida, Ayaka Tsutsui, Norimasa Kobori, Matthew Gillingham, Bektur Ryskeldiev"
+  venue: "CHI Extended Abstracts (CHI EA '26)"
+  pages: "1–7"
+  place: "Barcelona, Spain"
+  links:
+    - { label: "ACM Digital Library", url: "https://doi.org/10.1145/3772363.3798874" }
+
+- year: 2026
+  type: domestic
+  title: "未来モビリティメーカ：対話と生成AIによる来場者参加型モビリティ共創体験"
+  authors: "臼井公希, 時田聡実, 内田達弥, 川上悟, 田中五大, 開一夫, 石黒祥生, 大須賀晋"
+  venue: "インタラクション2026論文集, 情報処理学会"
+  pages: "375–380"
+  note: "デモ発表"
+  links:
+    - { label: "PDF", url: "https://www.interaction-ipsj.org/proceedings/2026/data/pdf/1B55.pdf" }
+
+# ---- 2025 ----------------------------------------------------------------
+- year: 2025
+  type: full
+  title: "Understanding the Effects of Rhythmic Frame-by-Frame Presentation for Improving Dance Learning"
+  authors: "Satomi Tokida, Yoshio Ishiguro"
+  venue: "Augmented Humans International Conference 2025 (AHs '25)"
+  pages: "7–17"
+  place: "Abu Dhabi, UAE"
+  links:
+    - { label: "ACM Digital Library", url: "https://doi.org/10.1145/3745900.3746078" }
+
+- year: 2025
+  type: full
+  title: "Navigation Pixie: Implementation and Empirical Study Toward On-demand Navigation Agents in Commercial Metaverse"
+  authors: "Hikari Yanagawa, Yuichi Hiroi, Satomi Tokida, Yuji Hatada, Takefumi Hiraki"
+  venue: "IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2025)"
+  pages: "1137–1147"
+  links:
+    - { label: "IEEE Xplore", url: "https://doi.org/10.1109/ISMAR67309.2025.00120" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2508.03216" }
+
+- year: 2025
+  type: full
+  title: "Leash as a Cue: Visual Indicators for Third-Party Acceptance Across Resistance Levels"
+  authors: "Momo Hanawa, Satomi Tokida, Yoshio Ishiguro"
+  venue: "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN 2025)"
+  pages: "2360–2366"
+  links:
+    - { label: "IEEE Xplore", url: "https://doi.org/10.1109/RO-MAN63969.2025.11217585" }
+
+- year: 2025
+  type: short
+  title: "It's Not Just About Slow: How Tempo Control in Co-embodied Dance Training Affects Movement Accuracy and Timing"
+  authors: "Kenta Hashiura*, Satomi Tokida*, Takuji Narumi, Yoshio Ishiguro"
+  equal: true
+  venue: "IEEE ISMAR 2025 Adjunct"
+  pages: "611–617"
+  links:
+    - { label: "IEEE Xplore", url: "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00122" }
+
+- year: 2025
+  type: short
+  title: "Designing a Seamless VR Experience for Dance Movement Therapy"
+  authors: "Satomi Tokida, Yuta Itoh, Jean-Marie Normand, Rebecca Fribourg, Jean-Philippe Rivière, Yoshio Ishiguro"
+  venue: "IEEE VR 2025 Abstracts and Workshops (IEEE VRW 2025)"
+  pages: "856–860"
+  place: "Saint-Malo, France"
+  links:
+    - { label: "IEEE Xplore", url: "https://doi.org/10.1109/VRW66409.2025.00174" }
+
+- year: 2025
+  type: domestic
+  title: "メタバース空間でのユーザ行動データの定量分析を通じた実世界ブランディング効果誘発要因の探索"
+  authors: "時田聡実, 廣井裕一, 上杉雅, 下野敦士, 鈴木晴之, 安部彰馬, 平木剛史"
+  venue: "第30回日本バーチャルリアリティ学会大会, 1F1-02"
+  note: "ポスター発表"
+  links:
+    - { label: "PDF", url: "https://conference.vrsj.org/ac2025/program/doc/1F1-02.pdf" }
+
+- year: 2025
+  type: domestic
+  title: "メタバース空間における実世界ブランディング効果を促進するKPI設計支援インタフェースの開発と評価"
+  authors: "横井総太朗, 時田聡実, 廣井裕一, 平木剛史"
+  venue: "第30回日本バーチャルリアリティ学会大会, 3C1-07"
+  note: "ポスター発表"
+  links:
+    - { label: "PDF", url: "https://conference.vrsj.org/ac2025/program/doc/3C1-07.pdf" }
+
+- year: 2025
+  type: domestic
+  title: "Co-Tune: 融合身体によるダンス学習のための適応的テンポ調整システム"
+  authors: "橋浦健太, 時田聡実, 鳴海拓志, 石黒祥生"
+  venue: "第33回インタラクティブシステムとソフトウェアに関するワークショップ (WISS 2025)"
+  note: "デモ発表"
+  links:
+    - { label: "PDF", url: "https://www.wiss.org/WISS2025Proceedings/data/demo/3-B05.pdf" }
+
+# ---- 2024 ----------------------------------------------------------------
+- year: 2024
+  type: full
+  title: "MotionTales: Enhancing Creative Physical Expression in Elementary Education"
+  authors: "Satomi Tokida, Yuta Itoh, Masanori Kayano, Yoshio Ishiguro"
+  venue: "SIGGRAPH Asia 2024 Educator's Forum (SA '24)"
+  pages: "1–8"
+  place: "Tokyo, Japan"
+  note: "Honorable Mention Award (top 5%)"
+  links:
+    - { label: "ACM Digital Library", url: "https://doi.org/10.1145/3680533.3697061" }
+
+- year: 2024
+  type: short
+  title: "Enhancing Seamless Body Movement Learning with Frame-by-Frame VR Presentation"
+  authors: "Satomi Tokida, Yoshio Ishiguro"
+  venue: "IEEE VR 2024 Abstracts and Workshops (IEEE VRW 2024)"
+  pages: "604–607"
+  place: "Orlando, FL, USA"
+  links:
+    - { label: "IEEE Xplore", url: "https://doi.org/10.1109/VRW62533.2024.00117" }
+
+- year: 2024
+  type: poster
+  title: "Dance with Rhythmic Frames: Improving Dancing Skills by Frame-by-Frame Presentation"
+  authors: "Satomi Tokida, Yoshio Ishiguro"
+  venue: "9th International Conference on Movement and Computing (MOCO '24)"
+  pages: "1–6"
+  place: "Utrecht, Netherlands"
+  links:
+    - { label: "ACM Digital Library", url: "https://doi.org/10.1145/3658852.3659089" }
+
+- year: 2024
+  type: domestic
+  title: "コマ送り提示を用いたダンス学習支援のためのVRアプリケーション"
+  authors: "時田聡実, 石黒祥生"
+  venue: "インタラクション2024論文集, 情報処理学会"
+  pages: "108–117"
+  note: "口頭発表・査読あり"
+  links:
+    - { label: "PDF", url: "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/INT24013.pdf" }
+
+- year: 2024
+  type: domestic
+  title: "即興的な身体表現を引き出すインタラクティブなデジタル教科書"
+  authors: "時田聡実, 伊藤勇太, 茅野政徳, 石黒祥生"
+  venue: "第32回インタラクティブシステムとソフトウェアに関するワークショップ (WISS 2024)"
+  note: "デモ発表"
+  links:
+    - { label: "PDF", url: "https://www.wiss.org/WISS2024Proceedings/data/demo//1-B23.pdf" }
+
+# ---- 2023 ----------------------------------------------------------------
+- year: 2023
+  type: domestic
+  title: "Dance with Rhythmic Frames: コマ送り提示によるVRダンス学習システム"
+  authors: "時田聡実, 石黒祥生, 大谷健登, 西野隆典, 武田一哉"
+  venue: "インタラクション2023, 3B-48, 情報処理学会"
+  note: "デモ発表"
+  links:
+    - { label: "PDF", url: "https://www.interaction-ipsj.org/proceedings/2023/data/pdf/3B-48.pdf" }

@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<article class="project wrap">
+  <a class="backlink" href="{{ '/#projects' | relative_url }}">← {% include t.html key="back_projects" %}</a>
+
+  <header class="project__head">
+    <p class="eyebrow">{{ page.category | default: "Project" }}{% if page.year %} <span class="eyebrow__sep">/</span> {{ page.year }}{% endif %}</p>
+    <h1 class="project__title">{% include l.html en=page.title ja=page.title_ja %}</h1>
+    {% if page.subtitle %}<p class="project__subtitle">{% include l.html en=page.subtitle ja=page.subtitle_ja %}</p>{% endif %}
+  </header>
+
+  {% if page.cover %}
+  <figure class="project__cover">
+    <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title }}" style="object-position: {{ page.focus | default: '50% 50%' }}">
+  </figure>
+  {% endif %}
+
+  <div class="project__body">
+    <aside class="project__meta">
+      <dl>
+        {% if page.year %}<dt>{% include t.html key="year" %}</dt><dd>{{ page.year }}</dd>{% endif %}
+        {% if page.role %}<dt>{% include t.html key="role" %}</dt><dd>{% include l.html en=page.role ja=page.role_ja %}</dd>{% endif %}
+        {% if page.venue %}<dt>{% include t.html key="venue" %}</dt><dd>{{ page.venue }}</dd>{% endif %}
+        {% if page.collaborators %}<dt>{% include t.html key="with" %}</dt><dd>{% include l.html en=page.collaborators ja=page.collaborators_ja %}</dd>{% endif %}
+        {% if page.tools %}<dt>{% include t.html key="tools" %}</dt><dd>{{ page.tools }}</dd>{% endif %}
+      </dl>
+      {% if page.links %}
+      <ul class="project__links">
+        {% for l in page.links %}
+        <li><a class="chip" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </aside>
+
+    <div class="project__content prose">
+      {{ content }}
+
+      {% if page.gallery %}
+      <div class="gallery">
+        {% for g in page.gallery %}
+        <figure class="gallery__item">
+          <img src="{{ g.src | relative_url }}" alt="{{ g.alt | default: page.title }}" loading="lazy">
+          {% if g.caption %}<figcaption>{% include l.html en=g.caption ja=g.caption_ja %}</figcaption>{% endif %}
+        </figure>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {%- assign sorted = site.projects | sort: "order" -%}
+  {%- assign n = sorted.size -%}
+  {%- for p in sorted -%}
+    {%- if p.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign prev_i = idx | minus: 1 -%}
+  {%- assign next_i = idx | plus: 1 -%}
+  <nav class="project__pager">
+    {%- if prev_i >= 0 -%}{%- assign pp = sorted[prev_i] -%}
+      <a class="pager__prev" href="{{ pp.url | relative_url }}"><small>{% include t.html key="previous" %}</small>{% include l.html en=pp.title ja=pp.title_ja %}</a>
+    {%- else -%}<span></span>{%- endif -%}
+    {%- if next_i < n -%}{%- assign np = sorted[next_i] -%}
+      <a class="pager__next" href="{{ np.url | relative_url }}"><small>{% include t.html key="next" %}</small>{% include l.html en=np.title ja=np.title_ja %}</a>
+    {%- endif -%}
+  </nav>
+</article>

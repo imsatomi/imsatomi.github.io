@@ -1,0 +1,41 @@
+---
+layout: default
+title: Satomi Tokida
+description: Satomi Tokida — Ph.D. student in HCI, VR/AR and AI for education at the University of Tokyo.
+---
+<section class="hero wrap">
+  <div class="hero__text">
+    <h1 class="hero__name">Satomi Tokida</h1>
+    <p class="hero__name-ja" data-lang="ja">時田 聡実</p>
+    <div class="hero__about" data-lang="en">
+      <p>I am a Ph.D. student at the <a href="https://ishiguro-lab.org" target="_blank" rel="noopener">Ishiguro Lab</a>,
+      Graduate School of Interdisciplinary Information Studies, the University of Tokyo.</p>
+      <p>My research is in Human-Computer Interaction. I design and study VR/AR systems that help people learn and
+      express body movement, and AI agents that join classrooms as learning partners. In both, I am interested in how
+      technology can draw out people's thinking, movement and expression.</p>
+    </div>
+    <div class="hero__about" data-lang="ja">
+      <p>東京大学大学院 学際情報学府 <a href="https://ishiguro-lab.org" target="_blank" rel="noopener">石黒研究室</a> 博士課程 在籍。名古屋大学工学部を卒業後、東京大学大学院 学際情報学府にて修士（学際情報学）を取得。修士2年次に <a href="https://www.ec-nantes.fr/" target="_blank" rel="noopener">École Centrale de Nantes</a>（フランス）に1年間の研究留学。<a href="https://lab.cluster.mu/" target="_blank" rel="noopener">クラスター メタバース研究所</a>、<a href="https://r4d.mercari.com/" target="_blank" rel="noopener">メルカリ R4D</a>、<a href="https://www.sbintuitions.co.jp/" target="_blank" rel="noopener">SB Intuitions株式会社</a>のリサーチアシスタントとして研究に従事。2026年より<a href="https://www.ipa.go.jp/jinzai/mitou/advanced/2026first/gaiyou-is-2.html" target="_blank" rel="noopener">IPA未踏アドバンスト事業</a>に採択。</p>
+      <p>研究分野はヒューマンコンピュータインタラクション（HCI）、XR、教育向けAI。博士論文では「人の表現活動を引き出すインタラクションデザイン」をテーマに、能力ではなく状況に介入して身体や発話による表現を引き出すことを目指し、応答するVR環境でのダンスセラピー、児童の動きを可視化するデジタル教材、教室に参加するAIクラスメートを設計・実装し、セラピーや小学校の教室で実証している。SIGGRAPH Asia 2024 Educator's Forum Honorable Mention Award、東京大学大学院学際情報学府 専攻長賞・優秀修士論文賞（2025年）などを受賞。</p>
+    </div>
+  </div>
+  <figure class="hero__photo">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Portrait of Satomi Tokida" width="260" height="260">
+  </figure>
+</section>
+
+<section id="projects" class="projects wrap">
+  <h2 class="section-title"><span class="section-title__num">01</span>{% include t.html key="projects" %}</h2>
+  <div class="collage">
+    {%- assign sorted = site.projects | sort: "order" -%}
+    {%- for p in sorted -%}
+    <a class="tile" href="{{ p.url | relative_url }}" style="--cols: {{ p.cols }}; --rows: {{ p.rows | default: 3 }}">
+      <img src="{{ p.cover | relative_url }}" alt="{{ p.cover_alt | default: p.title }}" loading="lazy" style="object-position: {{ p.focus | default: '50% 50%' }}">
+      <span class="tile__veil">
+        <span class="tile__title">{% include l.html en=p.title ja=p.title_ja %}</span>
+        {% if p.subtitle %}<span class="tile__sub">{% include l.html en=p.subtitle ja=p.subtitle_ja %}</span>{% endif %}
+      </span>
+    </a>
+    {%- endfor -%}
+  </div>
+</section>

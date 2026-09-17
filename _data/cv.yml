@@ -1,71 +1,179 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# Mirrors assets/pdf/CV_satomitokida_ja_202609.pdf. Section order and wording follow the PDF.
+# Section types: timeline | list | map | chips.  *_ja = Japanese text (falls back to English).
+# Any entry may have links: [{ label, url }] which render as chips.
 
 - title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+  title_ja: 学歴
+  type: timeline
+  items:
+    - when: "2025 –"
+      title: "Ph.D. course, Human-Computer Interaction"
+      title_ja: "博士課程（ヒューマンコンピュータインタラクション）"
+      org: "Graduate School of Interdisciplinary Information Studies, The University of Tokyo"
+      org_ja: "東京大学大学院 学際情報学府"
+      place: "Tokyo"
+      place_ja: "東京"
+      note: "Advisor: Dr. Yoshio Ishiguro"
+      note_ja: "指導教員：石黒祥生 准教授"
+    - when: "2023 – 2025"
+      title: "Master's course, Human-Computer Interaction"
+      title_ja: "修士課程（ヒューマンコンピュータインタラクション）"
+      org: "Graduate School of Interdisciplinary Information Studies, The University of Tokyo"
+      org_ja: "東京大学大学院 学際情報学府"
+      place: "Tokyo"
+      place_ja: "東京"
+      note: "Advisor: Dr. Yoshio Ishiguro"
+      note_ja: "指導教員：石黒祥生 准教授"
+    - when: "2019 – 2023"
+      title: "B.Eng., Electrical, Electronic and Information Engineering"
+      title_ja: "学士（電気電子情報工学科）"
+      org: "School of Engineering, Nagoya University"
+      org_ja: "名古屋大学 工学部"
+      place: "Aichi"
+      place_ja: "愛知"
+      note: "Advisor: Dr. Yoshio Ishiguro"
+      note_ja: "指導教員：石黒祥生 准教授"
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Assistant
-      institution: Mercari, Inc., Tokyo, Japan
-      year: Sep 2025 - present
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interests
+  title_ja: 専攻分野
   type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  items:
+    - { en: "Human-Computer Interaction (HCI)", ja: "Human-Computer Interaction (HCI)" }
+    - { en: "Extended Reality (XR: VR, AR, MR) / AI for Education / Embodied Interaction & Dance Learning",
+        ja: "Extended Reality (XR: VR, AR, MR) / AI for Education / Embodied Interaction & Dance Learning" }
+
+- title: Publications
+  title_ja: 業績
+  type: chips
+  note: "21 papers, posters and demos (2023 – 2026)."
+  note_ja: "論文・ポスター・デモ発表 21件（2023 – 2026）"
+  links:
+    - { label: "Publications", url: "/publications/" }
+    - { label: "Google Scholar", url: "https://scholar.google.com/citations?user=pkIE4d0AAAAJ" }
+
+- title: Honors & Awards
+  title_ja: 受賞
+  type: timeline
+  items:
+    - when: "2025"
+      title: "Best Master's Thesis Award (Head of Department Award)"
+      title_ja: "専攻長賞・優秀修士論文賞"
+      org: "Graduate School of Interdisciplinary Information Studies, The University of Tokyo"
+      org_ja: "東京大学大学院 学際情報学府"
+      links:
+        - { label: "III / GSII", url: "https://www.iii.u-tokyo.ac.jp/research/20250518report" }
+    - when: "2024"
+      title: "Honorable Mention Award"
+      title_ja: "Honorable Mention Award"
+      org: "SIGGRAPH Asia 2024 Educator's Forum"
+      links:
+        - { label: "SIGGRAPH Asia", url: "https://asia.siggraph.org/2024/for-the-press/press-releases/siggraph-asia-2024-award-winners/" }
+
+- title: Grants & Scholarships
+  title_ja: 奨学金・助成
+  type: timeline
+  items:
+    - when: "2026"
+      title: "MITOU Advanced Program (IPA) — “Development of an AI classmate agent that activates group dialogue in classrooms”"
+      title_ja: "IPA 未踏アドバンスト事業 採択 —「教室の集団対話を活性化するAIクラスメートエージェントの開発」"
+      note: "8,000,000 JPY"
+      note_ja: "800万円"
+      links:
+        - { label: "IPA", url: "https://www.ipa.go.jp/jinzai/mitou/advanced/2026first/gaiyou-is-2.html" }
+    - when: "2025 – 2027"
+      title: "SPRING GX"
+      title_ja: "SPRING GX"
+    - when: "2025"
+      title: "SPRING GX Spontaneous Fusion Program"
+      title_ja: "SPRING GX 自発的融合プログラム"
+      note: "500,000 JPY"
+      note_ja: "50万円"
+    - when: "2023 – 2025"
+      title: "JASSO Type 1 Scholarship — repayment exemption for outstanding achievement (Master's, half)"
+      title_ja: "日本学生支援機構 第一種奨学金「特に優れた業績による返還免除」（修士課程・半額免除）"
+
+- title: Academic Activities
+  title_ja: 学会活動
+  type: timeline
+  items:
+    - when: "2024 – 2026"
+      title: "Student Volunteer"
+      title_ja: "Student Volunteer"
+      org: "IEEE VR 2026, ISMAR 2025, AHs 2025, IEEE VR 2025, SIGGRAPH Asia 2024, IEEE VR 2024"
+    - when: "2024"
+      title: "Organizer"
+      title_ja: "Organizer"
+      org: "Birds of a Feather “XR in Enterprise and Society of Japan”, SIGGRAPH Asia 2024"
+    - when: "2024.05 – 2025.03"
+      title: "Visiting Research Student"
+      title_ja: "Visiting Research Student（研究留学・11ヶ月）"
+      org: "École Centrale de Nantes"
+      place: "France (11 months)"
+      place_ja: "フランス"
+
+- title: Work Experience
+  title_ja: 職歴
+  type: timeline
+  items:
+    - when: "2026.05 –"
+      title: "Research Assistant"
+      org: "SB Intuitions Corp."
+      org_ja: "SB Intuitions株式会社"
+    - when: "2025.09 –"
+      title: "Research Assistant"
+      org: "Mercari, Inc."
+      org_ja: "株式会社メルカリ"
+    - when: "2024.12 –"
+      title: "Research Assistant"
+      org: "Cluster, Inc."
+      org_ja: "クラスター株式会社"
+    - when: "2023.08 – 2024.10"
+      title: "Data Engineer Intern"
+      org: "Rakuten Group, Inc."
+      org_ja: "楽天グループ株式会社"
+      note: "Development of data analysis infrastructure systems"
+      note_ja: "データ分析基盤システムの開発"
+    - when: "2023.06 – 2024.02"
+      title: "Programming School Teacher"
+      org: "Corekara Inc."
+      org_ja: "株式会社コレカラ"
+      note: "Development of programming learning materials and tutoring"
+      note_ja: "プログラミング教材の開発と指導"
+
+- title: Media
+  title_ja: メディア掲載
+  type: timeline
+  items:
+    - when: "2026"
+      title: "AI push to reshape Japan's school classrooms"
+      org: "NHK World"
+    - when: "2025"
+      title: "Ms. Satomi Tokida, a 2nd-year Master's student at the Ishiguro Laboratory, received the Honorable Mention Award at the SIGGRAPH Asia 2024 Educator's Forum"
+      org: "The University of Tokyo III / GSII"
+      org_ja: "東京大学 情報学環・学際情報学府"
+      links:
+        - { label: "III / GSII", url: "https://www.iii.u-tokyo.ac.jp/news/2024121221705" }
+
+- title: Memberships
+  title_ja: 所属学会
+  type: timeline
+  items:
+    - when: ""
+      title: "IEEE"
+      note: "Student Member"
+      note_ja: "学生会員"
+    - when: ""
+      title: "The Virtual Reality Society of Japan (VRSJ)"
+      title_ja: "日本バーチャルリアリティ学会"
+    - when: ""
+      title: "Japan Dance Therapy Association (JDTA)"
+      title_ja: "日本ダンス・セラピー協会"
+
+- title: Skills
+  title_ja: スキル
+  type: map
+  items:
+    - name: Languages
+      name_ja: Languages
+      value: "Japanese (native), English (business level, TOEIC 860), Korean (fluent, TOPIK 3), French (introductory)"
+      value_ja: "日本語（母語）、英語（ビジネスレベル・TOEIC 860）、韓国語（TOPIK 3）、フランス語（初級）"

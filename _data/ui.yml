@@ -1,0 +1,23 @@
+# UI strings. Use {% include t.html key="nav_about" %} to print both languages.
+nav_about:        { en: "About",        ja: "About" }
+nav_publications: { en: "Publications", ja: "Publications" }
+nav_cv:           { en: "CV",           ja: "CV" }
+projects:         { en: "Projects",     ja: "Projects" }
+publications:     { en: "Publications", ja: "Publications" }
+publications_lead: { en: "Papers, posters and demos.", ja: "論文・ポスター・デモ発表の一覧です。" }
+cv:               { en: "CV",           ja: "CV" }
+download_pdf:     { en: "Download PDF", ja: "PDFをダウンロード" }
+back_projects:    { en: "Projects",     ja: "Projects" }
+year:             { en: "Year",         ja: "Year" }
+role:             { en: "Role",         ja: "Role" }
+venue:            { en: "Venue",        ja: "Venue" }
+with:             { en: "With",         ja: "With" }
+tools:            { en: "Tools",        ja: "Tools" }
+previous:         { en: "Previous",     ja: "Previous" }
+next:             { en: "Next",         ja: "Next" }
+equal:            { en: "equal contribution", ja: "共同筆頭" }
+# Publication types
+type_full:        { en: "Full Paper",   ja: "Full Paper" }
+type_short:       { en: "Short Paper",  ja: "Short Paper" }
+type_poster:      { en: "Poster / Demo", ja: "Poster / Demo" }
+type_domestic:    { en: "Domestic",     ja: "Domestic" }

@@ -1,0 +1,37 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: Publications by Satomi Tokida.
+---
+<section class="wrap pubs">
+  <h1 class="page-title"><span class="section-title__num">02</span>{% include t.html key="publications" %}</h1>
+  <p class="page-lead">{% include t.html key="publications_lead" %} <a class="chip chip--google-scholar" href="https://scholar.google.com/citations?user={{ site.social.scholar }}" target="_blank" rel="noopener">Google Scholar</a></p>
+
+  {%- assign groups = site.data.publications | group_by: "year" | sort: "name" | reverse -%}
+  {%- for g in groups -%}
+  <section class="pubs__year">
+    <h2 class="pubs__year-label">{{ g.name }}</h2>
+    <ol class="pubs__list">
+      {%- for p in g.items -%}
+      {%- assign tkey = "type_" | append: p.type -%}
+      <li class="pub">
+        <span class="pub__badge pub__badge--{{ p.type }}">{% include t.html key=tkey %}</span>
+        <div class="pub__main">
+          <p class="pub__title">
+            {%- if p.links and p.links.first -%}<a href="{{ p.links.first.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{%- else -%}{{ p.title }}{%- endif -%}
+          </p>
+          <p class="pub__authors">{% include authors.html authors=p.authors %}{% if p.equal %} <span class="pub__note">*{% include t.html key="equal" %}</span>{% endif %}</p>
+          <p class="pub__venue">{{ p.venue }}{% if p.pages %}, pp. {{ p.pages }}{% endif %}{% if p.place %} · {{ p.place }}{% endif %}{% if p.note %} · <span class="pub__note">{{ p.note }}</span>{% endif %}</p>
+          {%- if p.links -%}
+          <p class="pub__links">
+            {%- for l in p.links -%}<a class="chip chip--{{ l.label | slugify }}" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>{%- endfor -%}
+          </p>
+          {%- endif -%}
+        </div>
+      </li>
+      {%- endfor -%}
+    </ol>
+  </section>
+  {%- endfor -%}
+</section>

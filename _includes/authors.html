@@ -1,0 +1,6 @@
+{%- comment -%} Bold the site owner's name in an author string {%- endcomment -%}
+{%- assign a = include.authors -%}
+{%- assign a = a | replace: "Satomi Tokida", "<b>Satomi Tokida</b>" -%}
+{%- assign a = a | replace: "時田 聡実", "<b>時田 聡実</b>" -%}
+{%- assign a = a | replace: "時田聡実", "<b>時田聡実</b>" -%}
+{{ a }}

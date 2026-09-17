@@ -1,0 +1,51 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+description: Curriculum vitae of Satomi Tokida.
+---
+<section class="wrap cv">
+  <div class="cv__head">
+    <h1 class="page-title"><span class="section-title__num">03</span>{% include t.html key="cv" %}</h1>
+    <a class="button" data-lang="en" href="{{ '/assets/pdf/' | append: site.cv_pdf_en | relative_url }}" target="_blank" rel="noopener">Download PDF</a>
+    <a class="button" data-lang="ja" href="{{ '/assets/pdf/' | append: site.cv_pdf_ja | relative_url }}" target="_blank" rel="noopener">PDFをダウンロード</a>
+  </div>
+
+  {%- for sec in site.data.cv -%}
+  <section class="cv__section">
+    <h2 class="cv__title">{% include l.html en=sec.title ja=sec.title_ja %}</h2>
+
+    {%- if sec.type == "timeline" -%}
+    <ul class="timeline">
+      {%- for e in sec.items -%}
+      <li class="timeline__item">
+        <span class="timeline__when">{{ e.when }}</span>
+        <div class="timeline__what">
+          <p class="timeline__head">{% include l.html en=e.title ja=e.title_ja %}</p>
+          {%- if e.org -%}<p class="timeline__org">{% include l.html en=e.org ja=e.org_ja %}{% if e.place %} · {% include l.html en=e.place ja=e.place_ja %}{% endif %}</p>{%- endif -%}
+          {%- if e.note -%}<p class="timeline__note">{% include l.html en=e.note ja=e.note_ja %}</p>{%- endif -%}
+          {%- if e.links -%}<p class="timeline__links">{% for l in e.links %}<a class="chip" href="{{ l.url | relative_url }}" target="_blank" rel="noopener">{{ l.label }}</a>{% endfor %}</p>{%- endif -%}
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {%- elsif sec.type == "list" -%}
+    <ul class="cv__list">
+      {%- for e in sec.items -%}<li>{% include l.html en=e.en ja=e.ja %}</li>{%- endfor -%}
+    </ul>
+
+    {%- elsif sec.type == "chips" -%}
+    <div class="cv__chips">
+      {%- if sec.note -%}<p class="timeline__org">{% include l.html en=sec.note ja=sec.note_ja %}</p>{%- endif -%}
+      <p class="timeline__links">{% for l in sec.links %}<a class="chip" href="{{ l.url | relative_url }}"{% unless l.url contains "://" %}{% else %} target="_blank" rel="noopener"{% endunless %}>{{ l.label }}</a>{% endfor %}</p>
+    </div>
+
+    {%- elsif sec.type == "map" -%}
+    <dl class="cv__map">
+      {%- for e in sec.items -%}<dt>{% include l.html en=e.name ja=e.name_ja %}</dt><dd>{% include l.html en=e.value ja=e.value_ja %}</dd>{%- endfor -%}
+    </dl>
+    {%- endif -%}
+  </section>
+  {%- endfor -%}
+</section>
