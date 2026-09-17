@@ -61,7 +61,7 @@ English body in Markdown. Paragraphs, headings, lists and images all work.
 
 Every page contains both languages; the EN / JA toggle in the header sets `<html lang>` and CSS hides
 the other one (`html[lang="en"] [data-lang="ja"] { display: none }`). The choice is remembered in
-`localStorage`, and first-time visitors get Japanese if their browser language is Japanese.
+`localStorage`. First-time visitors see Japanese; English only after they pick EN.
 
 - UI labels: `_data/ui.yml` (`{% include t.html key="..." %}`)
 - Inline pairs: `{% include l.html en="..." ja="..." %}`
