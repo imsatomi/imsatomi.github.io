@@ -1,4 +1,2 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://imsatomi.github.io/sitemap.xml
+Allow: /
