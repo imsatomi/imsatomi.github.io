@@ -147,6 +147,8 @@
     - when: "2026"
       title: "AI push to reshape Japan's school classrooms"
       org: "NHK World"
+      links:
+        - { label: "NHK World", url: "https://www3.nhk.or.jp/nhkworld/en/news/backstories/4680/" }
     - when: "2025"
       title: "Ms. Satomi Tokida, a 2nd-year Master's student at the Ishiguro Laboratory, received the Honorable Mention Award at the SIGGRAPH Asia 2024 Educator's Forum"
       org: "The University of Tokyo III / GSII"
