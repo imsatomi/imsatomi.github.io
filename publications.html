@@ -19,7 +19,7 @@ description: Publications by Satomi Tokida.
         <span class="pub__badge pub__badge--{{ p.type }}">{% include t.html key=tkey %}</span>
         <div class="pub__main">
           <p class="pub__title">
-            {%- if p.links and p.links.first -%}<a href="{{ p.links.first.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{%- else -%}{{ p.title }}{%- endif -%}
+            {{- p.title -}}
           </p>
           <p class="pub__authors">{% include authors.html authors=p.authors %}{% if p.equal %} <span class="pub__note">*{% include t.html key="equal" %}</span>{% endif %}</p>
           <p class="pub__venue">{{ p.venue }}{% if p.pages %}, pp. {{ p.pages }}{% endif %}{% if p.place %} · {{ p.place }}{% endif %}{% if p.note %} · <span class="pub__note">{{ p.note }}</span>{% endif %}</p>

@@ -1,5 +1,5 @@
 # type: full | short | poster | domestic   (labels live in _data/ui.yml)
-# links: first link is also used for the title. Label = where it goes (ACM Digital Library, IEEE Xplore, PDF, arXiv…)
+# links: rendered as chips (the only links on an entry). Label = where it goes (ACM Digital Library, IEEE Xplore, PDF, arXiv…)
 # "Satomi Tokida" / "時田聡実" are bolded automatically. equal: true adds an *equal contribution note.
 
 # ---- 2026 ----------------------------------------------------------------

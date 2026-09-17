@@ -84,7 +84,7 @@ All projects have real covers. `assets/img/projects/placeholder-*.jpg` are lefto
 
 Append an entry to `_data/publications.yml` (types: `full`, `short`, `poster`, `domestic`).
 `links` become chips; name them after the destination (`ACM Digital Library`, `IEEE Xplore`, `PDF`,
-`arXiv`). The first link is also used for the title. "Satomi Tokida" / "時田聡実" is bolded
+`arXiv`). Titles are plain text; the chips are the only links. "Satomi Tokida" / "時田聡実" is bolded
 automatically; `equal: true` adds an equal-contribution note.
 
 ## Updating the CV
